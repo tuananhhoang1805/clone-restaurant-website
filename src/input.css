@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .items{
+    @apply m-[2rem] cursor-pointer text-[#DCCA87] text-[2rem] text-center hover:text-white;
+    }
+}
