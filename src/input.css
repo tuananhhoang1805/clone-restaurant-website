@@ -6,4 +6,20 @@
     .items{
     @apply m-[2rem] cursor-pointer text-[#DCCA87] text-[2rem] text-center hover:text-white;
     }
+
+    .padding{
+        @apply px-[6rem] py-[4rem] sm:p-[2rem]
+    }
+    .button{
+        @apply bg-[#F5EFDB] text-[#0C0C0C] font-CU font-bold tracking-wider leading-[28px] text-[16px] px-[1.5rem] py-[.5rem] rounded-[1px] border-none cursor-pointer outline-none
+    }
+    .bg{
+        @apply bg-repeat bg-cover bg-fixed 
+    }
+    .text-opensans{
+        @apply font-OS text-[#DCCA87] text-[13px] leading-[30.2px] tracking-wider capitalize my-[2rem] sm:text-[14px] sm:leading-[25px]
+    }
+    .headtext{
+        @apply font-CU text-[#DCCA87] text-[64px] leading-[83.2px] tracking-wider capitalize
+    }
 }
