@@ -16,6 +16,9 @@
     .bg{
         @apply bg-repeat bg-cover bg-fixed 
     }
+    .text-cormorant{
+        @apply font-CU text-[#fff] font-bold tracking-wider capitalize text-[23px] leading-[29.9px] sm:text-[21px]
+    }
     .text-opensans{
         @apply font-OS text-[#DCCA87] text-[13px] leading-[30.2px] tracking-wider capitalize my-[2rem] sm:text-[14px] sm:leading-[25px]
     }
