@@ -1,13 +1,11 @@
 import React from 'react'
 import images from '../../data/images';
+import Submenu from '../Submenu/Submenu'
 const Header = () => {
     return (
         <div className="bg-[#0C0C0C] flex justify-between items-center min-h-screen" id="home">
             <div className="padding flex-1 w-full flex justify-center items-start flex-col sm:text-center">
-                <div className="mb-[1rem] sm:w-full">
-                    <p className="font-CU text-[#fff] font-bold tracking-wider capitalize text-[23px] leading-[29.9px] sm:text-[21px]">Chase the new flavour</p>
-                    <img src={images.spoon} alt="spoon_image" className="w-[45px] sm:m-auto" />
-                </div>
+                <Submenu title="Chase the new flavour" />
                 <h1 className="text-[#DCCA87] font-CU font-bold tracking-wider text-[50px] leading-[67px] capitalize sm:text-[50px] sm:leading-[70px] ">The Key To Fine Dining</h1>
                 <p className="text-opensans">Sit tellus lobortis sed senectus vivamus molestie. Condimentum volutpat morbi facilisis quam scelerisque sapien. Et, penatibus aliquam amet tellus </p>
                 <button type="button" className="button sm:m-auto">Explore Menu</button>

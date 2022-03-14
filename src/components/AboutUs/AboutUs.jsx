@@ -4,7 +4,7 @@ const AboutUs = () => {
   return (
     <div className="flex items-center justify-center bg bg-image-bgg padding relative" id="about">
         <div className="flex items-center justify-center absolute inset-0">
-            <img src={images.G} alt="G_overlay"  className="w-[391px] h-[415px] z-0 sm:w-4/5 sm:h-[320px] "/>
+            <img src={images.G} alt="G_overlay"  className="w-[391px] h-[415px] z-0 sm:h-[210px] sm:w-[220px]"/>
         </div>
 
         <div className="flex items-center justify-center w-full z-[2] lg:flex-col">
@@ -16,7 +16,7 @@ const AboutUs = () => {
             </div>
 
             <div className="mx-[4rem] my-[2rem] flex items-center justify-center lg:my-[4rem]">
-                <img src={images.knife} alt="about_knife" className="h-[910px]" />
+                <img src={images.knife} alt="about_knife" className="h-[910px] sm:h-[320px]" />
             </div>
 
             <div className="flex flex-1 justify-start items-start flex-col text-left">
