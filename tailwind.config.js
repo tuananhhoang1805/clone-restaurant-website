@@ -2,7 +2,7 @@ module.exports = {
   content: ["./src/**/*.{html,js,jsx}"],
   theme: {
     fontFamily: {
-      CU: ["Cormorant Upright , serif"], 
+      CU: ["Cormorant Upright"], 
       OS: ["Open Sans, sans-serif"],
     },
     extend: {

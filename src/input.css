@@ -6,7 +6,9 @@
     .items{
     @apply m-[2rem] cursor-pointer text-[#DCCA87] text-[2rem] text-center hover:text-white;
     }
-
+    .bd{
+        @apply border-[1px] border-solid border-orange-200 
+    }
     .padding{
         @apply px-[6rem] py-[4rem] sm:p-[2rem]
     }
