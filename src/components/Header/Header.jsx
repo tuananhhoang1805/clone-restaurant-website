@@ -12,7 +12,7 @@ const Header = () => {
             </div>
 
             <div className="flex-1 flex w-full justify-center items-center mt-[2rem] md:hidden">
-                <img src={images.welcome} alt="header_img" className="w-4/5"/>
+                <img src={images.welcome} alt="header_img" className="w-full mr-12"/>
             </div>
         </div>
     )
