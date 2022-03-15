@@ -1,0 +1,12 @@
+.transitions{
+    transition: .5s ease;
+}
+
+.scrollBar{
+    -ms-overflow-style: none;
+    scrollbar-width: none; 
+}
+
+.scrollBar::-webkit-scrollbar{
+    display: none;
+}
